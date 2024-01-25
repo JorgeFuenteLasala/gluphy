@@ -11,7 +11,7 @@ function languageDetector() {
     const mailButtonEs = "Envíalo por email";
     const previewButtonEs = "Previsualiza tu puzzle";
     const conditionsLinkTextEs = "Condiciones de servicio";
-    const conditionsLinkEs = "http://gluphy.com/conditions_es.html";
+    const conditionsLinkEs = "https://jorgefuentelasala.github.io/gluphy/conditions_es.html";
 
     const titleEn = "Translate your messages into puzzles";
     const subtitleEn = "Gluphy is the free web tool that turns any text into a game of logic";
@@ -22,7 +22,7 @@ function languageDetector() {
     const mailButtonEn = "Send it via email";
     const previewButtonEn = "Preview your puzzle";
     const conditionsLinkTextEn = "Terms of use";
-    const conditionsLinkEn = "http://gluphy.com/conditions_en.html";
+    const conditionsLinkEn = "https://jorgefuentelasala.github.io/gluphy/conditions_en.html";
             
 
     if (languageValidated == true) {
@@ -136,22 +136,22 @@ function textProcessing() {
 /* LAUNCH SHARING OPTIONS */
 
 function openWhatsapp() {
-        const whatsappUrl = new URL("whatsapp://send?text=http://gluphy.com/decoder.html?textEncoded="+textEncoded);
+        const whatsappUrl = new URL("whatsapp://send?text=https://jorgefuentelasala.github.io/gluphy/decoder.html?textEncoded="+textEncoded);
         window.open(whatsappUrl);
 }
 
 function openTelegram() {
-    const telegramUrl = new URL("tg://msg_url?url=http://gluphy.com/decoder.html?textEncoded="+textEncoded);
+    const telegramUrl = new URL("tg://msg_url?url=https://jorgefuentelasala.github.io/gluphy/decoder.html?textEncoded="+textEncoded);
     window.open(telegramUrl);
 }
 
 function openMail() {
-    const mailUrl = new URL("mailto:?subject=Gluphy&body=http://gluphy.com/decoder.html?textEncoded="+textEncoded);
+    const mailUrl = new URL("mailto:?subject=Gluphy&body=https://jorgefuentelasala.github.io/gluphy/decoder.html?textEncoded="+textEncoded);
     window.open(mailUrl);
 }
 
 function openPreview() {
-    const previewUrl = new URL("http://gluphy.com/decoder.html?textEncoded="+textEncoded);
+    const previewUrl = new URL("https://jorgefuentelasala.github.io/gluphy/decoder.html?textEncoded="+textEncoded);
     window.open(previewUrl);
 }
 

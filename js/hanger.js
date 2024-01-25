@@ -283,7 +283,7 @@ function listenSelection() {
             if (glyphsCompleted.join("") === textInArrays.join("")) {
                 let originalText = textDecoded.replace(/_/g, ' ');
                 alert(originalText);
-                window.location.replace("http://www.gluphy.com");
+                window.location.replace("https://jorgefuentelasala.github.io/gluphy/");
             }  
           
         })
